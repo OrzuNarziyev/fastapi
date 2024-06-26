@@ -10,9 +10,6 @@ async def lifespan(app: FastAPI):
     await create_all_tables()
     yield
 
-
-
-
 app = FastAPI(lifespan=lifespan)
 
 
