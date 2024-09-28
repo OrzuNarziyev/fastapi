@@ -1,1 +1,1 @@
-from sqlalchemy import String
+from sqlalchemy.ext.asyncio import async_sessionmaker
