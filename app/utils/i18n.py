@@ -1,1 +1,1 @@
-from sqlalchemy import String
+from sqlalchemy import String, Column, Integer
