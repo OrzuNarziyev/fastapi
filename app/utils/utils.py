@@ -1,2 +1,5 @@
-async def get_local():
-    return 'uz'
+from datetime import timedelta
+
+def get_time(hours: int):
+    return timedelta(hours=hours)
+
